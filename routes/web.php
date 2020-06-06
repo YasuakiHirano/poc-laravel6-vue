@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/enum_test', function () {
+    return view('enum_test');
+});
+
+Route::get('/enum_controller_test', 'EnumTestController@index');
