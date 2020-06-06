@@ -17,5 +17,7 @@ class EnumTestController extends Controller
         echo Gender::getDescription(1)."<br>";
         echo Gender::getDescription(2)."<br>";
         echo Gender::getDescription(9);
+
+        dd(Gender::getKeys(), Gender::getValues(), Gender::getRandomKey(), Gender::getRandomValue(), Gender::toArray());
     }
 }
