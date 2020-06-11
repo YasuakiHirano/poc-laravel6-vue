@@ -13,7 +13,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
-        "webklex/laravel-imap": "^1.4"
+        "webklex/laravel-imap": "^1.4",
+        "ext-json": "*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

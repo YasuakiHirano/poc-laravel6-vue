@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::group(['middleware' => ['logger']], function () {
+//    Route::get('/', function () { return view('welcome'); });
+//});
+
+Route::get('/', function () { return view('welcome'); })->middleware('logger');
 
 Route::get('/enum_test', function () {
     return view('enum_test');
