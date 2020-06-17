@@ -22,3 +22,7 @@ Route::get('/enum_test', function () {
 });
 
 Route::get('/enum_controller_test', 'EnumTestController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
