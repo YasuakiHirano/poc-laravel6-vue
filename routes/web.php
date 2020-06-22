@@ -26,3 +26,9 @@ Route::get('/enum_controller_test', 'EnumTestController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/short_url_form', function() { return view('test_laravel_short_url'); });
+
+Route::group(['prefix' => 'short_url'], function(){
+    (new Gallib\ShortUrl\ShortUrl)->routes();
+});

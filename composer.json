@@ -9,12 +9,13 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "ext-json": "*",
         "bensampo/laravel-enum": "^1.37",
         "fideloper/proxy": "^4.0",
+        "gallib/laravel-short-url": "^1.6",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
-        "webklex/laravel-imap": "^1.4",
-        "ext-json": "*"
+        "webklex/laravel-imap": "^1.4"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
